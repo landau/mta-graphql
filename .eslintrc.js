@@ -9,9 +9,6 @@ module.exports = {
   parserOptions: {
     'sourceType': 'script'
   },
-  ecmaFeatures: {
-    'modules': false
-  },
   rules: {
     'space-before-function-paren': ['error', 'never'],
     'no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
